@@ -1,0 +1,20 @@
+{
+    "name": "rod/php-pro",
+    "description": "php-pro",
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/router.php",
+            "app/core/controller.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Doria"
+        }
+    ],
+    "require": {}
+}
